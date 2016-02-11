@@ -1,0 +1,54 @@
+#container{
+	width:100%;
+	position:relative;
+}
+#dynamic-container {
+	width: 432px;
+	height: 432px;
+	position: relative;
+	margin:200px auto 0 auto;
+}
+#spin-ball{
+	width:432px;
+	height: 432px;
+	cursor:pointer;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index:2;
+	-moz-transform: rotate(347deg);
+	transform: rotate(347deg);
+	-ms-transform: rotate(347deg);
+	-webkit-transform: rotate(347deg);
+}
+#innerCircle {
+	width: 382px;
+	height: 382px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+	z-index:1;
+}
+#DailOver{
+	width: 32px;
+	height: 80px;
+	position: absolute;
+	left: 0px;
+	top: 177px;
+	z-index:3;
+}
+.myallinput{
+	position:absolute;
+	top:0;
+	right:20%;
+	width:150px;
+}
+.myinput{
+	border:1px solid #6C0406;
+	width:25px;
+	height:20px;
+	color:#D00003;
+	text-align:center;
+	float:left;
+	margin:0 10px 0 0;
+}
